@@ -5,18 +5,19 @@ function Sidebar(props) {
             ☰ Menú principal
             </div>
             <div className="menu">
-                <button>🏠Inicio</button>
-                <button>📱 Productos</button>
-                <button>⭐ Destacados</button>
-                <button>❤️ Favoritos</button>
+                <button>🏠</button>
+                <button>▲</button>
+                <button>📊 </button>
+                <button>★</button>
+                <button>⊞</button>
+                <button>●</button>
             </div>
 
             <div className="perfil">
-                <p>👤Usuario</p>
-                <p>{props.nombre}</p>
+                <p>👤</p>
             </div>
             <div className="menu">
-                <button>⚙️ Cerrar Sesion</button>
+                <button>⚙️</button>
             </div>
         </div>
     )
